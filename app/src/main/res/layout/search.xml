@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".search">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".search">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="69dp"
+            android:layout_height="46dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.046"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.03"
+            app:srcCompat="@drawable/frame_4" />
+
+        <TextView
+
+            android:layout_width="249dp"
+            android:layout_height="59dp"
+            android:layout_marginEnd="32dp"
+            android:ems="18"
+            android:text="Показывать кофе за баллы"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.269"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.739" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="280dp"
+            android:layout_height="79dp"
+            android:layout_marginEnd="32dp"
+            android:background="#FFFFFF"
+            android:ems="18"
+            android:hint="Хочу вкусный латте"
+            android:inputType="text"
+            android:text="Ореховый раф"
+            android:textColorHint="#BCB6B6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.464"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.36" />
+
+        <EditText
+            android:id="@+id/name2"
+            android:layout_width="280dp"
+            android:layout_height="79dp"
+            android:layout_marginEnd="32dp"
+            android:background=""
+            android:ems="18"
+            android:hint="Хочу вкусный латте"
+            android:inputType="text"
+            android:textColorHint="#BCB6B6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.464"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.205" />
+
+        <TextView
+            android:id="@+id/name3"
+            android:layout_width="281dp"
+            android:layout_height="31dp"
+            android:layout_marginEnd="32dp"
+            android:background=""
+            android:hint="Последний запрос"
+            android:textColorHint="#BCB6B6"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.459"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.335" />
+
+        <TextView
+
+            android:layout_width="249dp"
+            android:layout_height="59dp"
+            android:layout_marginEnd="32dp"
+            android:ems="18"
+            android:text="Показывать сезонные новинки"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.269"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.848" />
+
+        <TextView
+
+            android:layout_width="249dp"
+            android:layout_height="59dp"
+            android:layout_marginEnd="32dp"
+            android:ems="18"
+            android:text="Вести статистику моих заказов"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.276"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.955" />
+
+        <TextView
+
+            android:layout_width="105dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="32dp"
+            android:text="Поиск"
+            android:textAlignment="textStart"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.602"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.03" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="34dp"
+            android:layout_height="53dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.753"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.213"
+            app:srcCompat="@drawable/icon" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F1ECEC"
+            android:buttonTint="@xml/color"
+            android:checked="true"
+            android:drawableTint="#F1ECEC"
+            android:foregroundTint="#FFFFFF"
+            android:outlineAmbientShadowColor="#F8F4F4"
+            android:outlineSpotShadowColor="#EAE4E4"
+            android:shadowColor="#E6D9D9"
+            android:textColor="#ECE7E7"
+            android:textColorHighlight="#F4EAEA"
+            android:textColorHint="#F3DEDE"
+            android:textColorLink="#F3E4E4"
+            app:buttonIconTint="#F4EBEB"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.898"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.727" />
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F1ECEC"
+            android:buttonTint="@xml/color"
+            android:checked="true"
+            android:drawableTint="#F1ECEC"
+            android:foregroundTint="#FFFFFF"
+            android:outlineAmbientShadowColor="#F8F4F4"
+            android:outlineSpotShadowColor="#EAE4E4"
+            android:shadowColor="#E6D9D9"
+            android:textColor="#ECE7E7"
+            android:textColorHighlight="#F4EAEA"
+            android:textColorHint="#F3DEDE"
+            android:textColorLink="#F3E4E4"
+            app:buttonIconTint="#F4EBEB"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.898"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.834"/>
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.898"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.939" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
